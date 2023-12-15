@@ -18,9 +18,6 @@ const imageStyle = {
     margin: '20px 0', // Add some vertical space around the image
 };
 
-const textStyle = {
-    margin: '20px 0', // Add margin to the top and bottom of the text block
-};
 
 const About = () => (
     <div style={aboutStyle}>
