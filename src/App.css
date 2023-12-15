@@ -1,3 +1,22 @@
 .App {
   text-align: center;
 }
+
+.modal {
+  animation: fadeOutModal 6s forwards;
+}
+
+
+@keyframes fadeOutModal {
+
+  0%,
+  66.666% {
+    /* 66.666% to keep full opacity for 4 seconds */
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    /* Fully transparent at 100% to fade out over the last 2 seconds */
+  }
+}

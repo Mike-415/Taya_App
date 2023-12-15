@@ -4,8 +4,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const ImageCarousel = () => {
   const carouselImages = [
-    '/pic1.png',
-    '/pic2.png',
+    '/Taya_Forrest.png',
+    '/Taya_Orange.jpeg',
     '/pic3.png',
   ];
 
