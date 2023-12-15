@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar';
+import Carousel from './Components/Carousel'
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <NavBar />
+        <Carousel />
         <a
           className="App-link"
           href="https://reactjs.org"
