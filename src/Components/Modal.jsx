@@ -38,7 +38,7 @@ const Modal = ({ setShowModal }) => {
 
     return (
         <div className="modal" style={modalStyle}>
-            <Confetti width={width} height={height} />
+            {/* <Confetti width={width} height={height} /> */}
             <img
                 src={`${process.env.PUBLIC_URL}/Birthday_Cake.jpeg`}
                 alt="Birthday Cake"

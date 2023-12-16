@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="App">
       {showModal && <Modal setShowModal={setShowModal} />}
-      {!showModal && <ImageCarousel />}
       {/* <Confetti
         width={width}
         height={height}
@@ -25,5 +24,3 @@ function App() {
 }
 
 export default App;
-
-
