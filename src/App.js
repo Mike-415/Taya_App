@@ -4,6 +4,7 @@ import About from './Components/About'
 import './Components/ImageCarousel'
 import ImageCarousel from './Components/ImageCarousel'
 import Modal from './Components/Modal'
+import FamilyMembers from './Components/FamilyMembers';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       /> */}
       <ImageCarousel />
       <About />
+      <FamilyMembers />
     </div>
   );
 }
