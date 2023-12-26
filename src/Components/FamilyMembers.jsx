@@ -1,11 +1,25 @@
 import React from 'react';
 
 const familyMembers = [
-    { name: 'Grandma Loretta', image: '/Mom_Pic2.png', description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.' },
-    { name: 'Member 2', image: '/Taya_Forrest.png', description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.' },
-    { name: 'Member 3', image: '/Taya_Forrest.png', description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.' },
+    {
+        name: 'Grandma',
+        image: '/mom.jpg',
+        description: 'Your grandmother was born in a beautiful, small village in the Philippines called Tuguegarao. It\'s a place where her parents, your great-grandparents, were hardworking farmers, tending to the land with care and dedication.\n\nSeeking a brighter future filled with opportunities, she embarked on a big adventure in her twenties, all the way to America, and made a new home in San Francisco. It\'s a city she fell in love with, just like we do every day!\n\nYour grandma is an incredibly smart and hard-working'
+    },
+    {
+        name: 'Grandpa',
+        image: '/dad.jpg',
+        description: 'Your grandfather was born in Sonora, Mexico, which is a beautiful and sunny place. He spent his childhood there, soaking up the vibrant culture and warmth of Mexico, until he was a teenager. Then, he embarked on a big adventure with his family, moving all the way to San Francisco.\n\nYour grandfather has a different kind of talent from ours – he\'s an incredible soccer player! He used to play so well that he became quite well-known and respected throughout the Bay Area. It\'s like he could do magic with a soccer ball!\n\nMore than anything, he\'s a man of great character. He\'s honest, kind, and deeply empathetic, always standing up for what\'s right. He\'s the kind of person who inspires everyone around him to be better.\n\nWe often talk about you, and he always has the sweetest things to say. He loves you so much and is really looking forward to seeing you soon. He\'s got so many stories and hugs waiting just for you.'
+    },
+    {
+        name: 'Me',
+        image: '/me.jpg',
+        description: 'I was born in the lively city of San Francisco on December 22, 1982. It\'s a city as fun and colorful as our wonderful family, with its vibrant Mexican and Filipino communities, much like us.\nWhen I was a kid, just like you, I loved using my imagination to create beautiful things. I spent hours drawing pictures, bringing my ideas to life on paper. It was my way of exploring worlds beyond our own.\nIt is truly amazing to see how much we share in common, especially our passions. My first love was drawing. But as I grew up, I found myself drawn to the rhythm and energy of dancing. The very first dance move I mastered was the side glide. From there, I discovered the world of popping – a cool style of dance that is all about sharp movements and fun. It is a big part of hip-hop dance, which from what I understand is your favorite style.'
+    }
     // Add more family members as needed
 ];
+
+
 
 const containerStyle = {
     display: 'flex',

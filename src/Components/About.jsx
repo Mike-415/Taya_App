@@ -45,7 +45,7 @@ const section_titles = {
 const About = () => (
     <div style={aboutStyle}>
         <h1 style={section_titles}>Welcome Taya!</h1>
-        <div style={videoContainerStyle}>
+        {/* <div style={videoContainerStyle}>
             <iframe
                 style={videoStyle}
                 src="https://www.youtube.com/embed/Iq8h3GEe22o?si=2WMkK2yfZyR5Fawj"
@@ -53,19 +53,16 @@ const About = () => (
                 frameBorder="0"
                 allowFullScreen
             />
-        </div>
+        </div> */}
         <p style={paragraphStyle}>
-            🌈 Hello Taya! Welcome to this wonderful space created just for you! This website is a little world of joy where you'll find delightful surprises and lots of love. 🎉<br /><br />
+            Hi Taya! Welcome to this little corner of the internet that's just for you and me. I created this website because I wanted you to have a special place where you can always find a piece of me, no matter where we are. Think of it as a magical bridge that connects us, a place filled with memories, stories, and lots of love. It's our own little world, and I'm so excited to share it with you.<br /><br />
 
-            Here, there are beautiful messages, and heartwarming stories waiting for you. You’ll also find cheerful videos that are sure to make you smile! 😊<br /><br />
+            I've got so many surprises planned for this site. I'll be updating it with all kinds of amazing content – stories about our family, fun facts, pictures, and even some secrets about the universe! So, remember to visit here often. Who knows what new treasures you'll find each time? Maybe a story, a photo, or a fun game waiting just for you. It's going to be a wonderful adventure, and I can't wait for you to see what's next.<br /><br />
 
-            I'm always thinking of new and exciting things to add here, so every time you visit, keep an eye out for new surprises and fun adventures! 🎁🌟<br /><br />
-
-            This place is all about sharing happiness, laughter, and magical moments. I hope it brings a big smile to your face and warms your heart every time you see it.<br /><br />
-
-            Sending you lots of love and joy,<br />
-            Michael Anthony Gonzalez 💖
+            Most importantly, Taya, I want you to know how much I love you. You are the brightest star in my sky, and thinking of you lights up my whole day. This website is a big hug from me to you, a reminder that no matter where we are, my love is always with you. <br /><br />
         </p>
+
+
     </div>
 );
 
