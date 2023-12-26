@@ -69,34 +69,3 @@ nav {
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-
-/* Styles for larger screens (default) */
-p {
-  margin: 20px;
-  /* Example margin */
-}
-
-/* iPhone SE and similar small screens */
-@media screen and (max-width: 640px) {
-  p {
-    margin: 10px;
-    /* Adjusted margin for small screens */
-  }
-}
-
-/* Medium-sized screens (like iPhone 11, 12, 13, 14 non-Pro) */
-@media screen and (min-width: 641px) and (max-width: 1170px) {
-  p {
-    margin: 15px;
-    /* Margin for medium screens */
-  }
-}
-
-/* Larger screens (like iPhone Pro Max versions) */
-@media screen and (min-width: 1171px) {
-  p {
-    margin: 20px;
-    /* Margin for large screens */
-  }
-}

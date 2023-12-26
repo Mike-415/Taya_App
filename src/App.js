@@ -13,7 +13,7 @@ function App() {
   const [showModal, setShowModal] = useState(true)
   return (
     <div className="App">
-      {showModal && <Modal setShowModal={setShowModal} />}
+      {/* showModal && <Modal setShowModal={setShowModal} /> */}
       {/* <Confetti
         width={width}
         height={height}
