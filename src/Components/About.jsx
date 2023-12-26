@@ -6,22 +6,22 @@ const aboutStyle = {
     margin: '0 auto',
 };
 
-const videoContainerStyle = {
-    position: 'relative',
-    paddingBottom: '56.25%', // This sets the aspect ratio to 16:9
-    height: 0,
-    overflow: 'hidden',
-    maxWidth: '100%',
-    margin: '20px 0', // Add some vertical space around the video
-};
+// const videoContainerStyle = {
+//     position: 'relative',
+//     paddingBottom: '56.25%', // This sets the aspect ratio to 16:9
+//     height: 0,
+//     overflow: 'hidden',
+//     maxWidth: '100%',
+//     margin: '20px 0', // Add some vertical space around the video
+// };
 
-const videoStyle = {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: '100%',
-};
+// const videoStyle = {
+//     position: 'absolute',
+//     top: 0,
+//     left: 0,
+//     width: '100%',
+//     height: '100%',
+// };
 
 const paragraphStyle = {
     textAlign: 'justify',
