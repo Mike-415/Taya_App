@@ -6,22 +6,6 @@ const aboutStyle = {
     margin: '0 auto',
 };
 
-// const videoContainerStyle = {
-//     position: 'relative',
-//     paddingBottom: '56.25%', // This sets the aspect ratio to 16:9
-//     height: 0,
-//     overflow: 'hidden',
-//     maxWidth: '100%',
-//     margin: '20px 0', // Add some vertical space around the video
-// };
-
-// const videoStyle = {
-//     position: 'absolute',
-//     top: 0,
-//     left: 0,
-//     width: '100%',
-//     height: '100%',
-// };
 
 const paragraphStyle = {
     textAlign: 'justify',
@@ -45,15 +29,6 @@ const section_titles = {
 const About = () => (
     <div style={aboutStyle}>
         <h1 style={section_titles}>Welcome Taya!</h1>
-        {/* <div style={videoContainerStyle}>
-            <iframe
-                style={videoStyle}
-                src="https://www.youtube.com/embed/Iq8h3GEe22o?si=2WMkK2yfZyR5Fawj"
-                title="YouTube video player"
-                frameBorder="0"
-                allowFullScreen
-            />
-        </div> */}
         <p style={paragraphStyle}>
             Hi Taya! Welcome to this little corner of the internet that's just for you and me. I created this website because I wanted you to have a special place where you can always find a piece of me, no matter where we are. Think of it as a magical bridge that connects us, a place filled with memories, stories, and lots of love. It's our own little world, and I'm so excited to share it with you.<br /><br />
 
