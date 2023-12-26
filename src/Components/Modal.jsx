@@ -1,7 +1,7 @@
 // Modal.js
 import React, { useEffect } from 'react';
 //import Confetti from 'react-confetti';
-import useWindowSize from 'react-use/lib/useWindowSize';
+//import useWindowSize from 'react-use/lib/useWindowSize';
 
 const Modal = ({ setShowModal }) => {
     //const { width, height } = useWindowSize();
