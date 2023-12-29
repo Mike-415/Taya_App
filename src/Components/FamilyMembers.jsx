@@ -19,6 +19,10 @@ const familyMembers = [
     // Add more family members as needed
 ];
 
+const renderDescription = (description) => (
+    <p dangerouslySetInnerHTML={{ __html: description.replace(/\n/g, '<br />') }} />
+);
+
 
 
 const containerStyle = {
@@ -57,7 +61,7 @@ const FamilyMembers = () => (
                 <div key={member.name} style={memberStyle}>
                     <img src={member.image} alt={member.name} style={imageStyle} />
                     <h2>{member.name}</h2>
-                    <p>{member.description}</p>
+                    {renderDescription(member.description)}
                 </div>
             ))}
         </div>
