@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="214mm"
+   height="144mm"
+   viewBox="0 0 214 144"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   sodipodi:docname="Favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5478049"
+     inkscape:cx="313.06766"
+     inkscape:cy="409.81744"
+     inkscape:window-width="1920"
+     inkscape:window-height="973"
+     inkscape:window-x="1440"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1032">
+      <stop
+         style="stop-color:#e94f9f;stop-opacity:1;"
+         offset="0"
+         id="stop1028" />
+      <stop
+         style="stop-color:#981c5c;stop-opacity:0.96569914;"
+         offset="1"
+         id="stop1030" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1032"
+       id="radialGradient1034"
+       cx="104.46967"
+       cy="131.64589"
+       fx="104.46967"
+       fy="131.64589"
+       r="104.26377"
+       gradientTransform="matrix(1,0,0,0.65134,2.8970031,-13.653107)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#radialGradient1034);fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.07119;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;-inkscape-stroke:none;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+       id="path341"
+       ry="67.375572"
+       rx="103.72818"
+       cy="72.093132"
+       cx="107.36668" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.4444px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#d63384;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0;paint-order:markers stroke fill"
+       x="86.822754"
+       y="132.7047"
+       id="text1090"><tspan
+         sodipodi:role="line"
+         id="tspan1088"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.4444px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1"
+         x="86.822754"
+         y="132.7047" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:98.9469px;font-family:'Cream Cake';-inkscape-font-specification:'Cream Cake, Normal';text-align:center;text-anchor:middle;fill:#cbbbe9;stroke:#ffffff;stroke-width:1.753;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0;paint-order:markers stroke fill"
+       x="87.46701"
+       y="108.16817"
+       id="text371"
+       transform="scale(1.2544142,0.79718487)"><tspan
+         sodipodi:role="line"
+         id="tspan369"
+         style="stroke-width:1.753"
+         x="87.46701"
+         y="108.16817">Taya</tspan></text>
+  </g>
+</svg>
