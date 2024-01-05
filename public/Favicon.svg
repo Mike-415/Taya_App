@@ -11,7 +11,6 @@
    sodipodi:docname="Favicon.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -26,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.5478049"
-     inkscape:cx="313.06766"
-     inkscape:cy="409.81744"
+     inkscape:cx="33.771147"
+     inkscape:cy="411.6429"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="1440"
@@ -35,37 +34,13 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient1032">
-      <stop
-         style="stop-color:#e94f9f;stop-opacity:1;"
-         offset="0"
-         id="stop1028" />
-      <stop
-         style="stop-color:#981c5c;stop-opacity:0.96569914;"
-         offset="1"
-         id="stop1030" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1032"
-       id="radialGradient1034"
-       cx="104.46967"
-       cy="131.64589"
-       fx="104.46967"
-       fy="131.64589"
-       r="104.26377"
-       gradientTransform="matrix(1,0,0,0.65134,2.8970031,-13.653107)"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs2" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <ellipse
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#radialGradient1034);fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.07119;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;-inkscape-stroke:none;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#d63384;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.07119;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;-inkscape-stroke:none;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
        id="path341"
        ry="67.375572"
        rx="103.72818"
@@ -84,15 +59,40 @@
          y="132.7047" /></text>
     <text
        xml:space="preserve"
-       style="font-size:98.9469px;font-family:'Cream Cake';-inkscape-font-specification:'Cream Cake, Normal';text-align:center;text-anchor:middle;fill:#cbbbe9;stroke:#ffffff;stroke-width:1.753;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0;paint-order:markers stroke fill"
-       x="87.46701"
-       y="108.16817"
+       style="font-size:187.763px;font-family:'Cream Cake';-inkscape-font-specification:'Cream Cake, Normal';text-align:center;text-anchor:middle;fill:#92235a;stroke:#060606;stroke-width:7.427;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:0;paint-order:stroke fill markers;stroke-dasharray:none;fill-opacity:1"
+       x="77.973244"
+       y="131.50386"
        id="text371"
-       transform="scale(1.2544142,0.79718487)"><tspan
+       transform="scale(1.0721792,0.93267992)"
+       inkscape:label="T_bottom"><tspan
          sodipodi:role="line"
          id="tspan369"
-         style="stroke-width:1.753"
-         x="87.46701"
-         y="108.16817">Taya</tspan></text>
+         style="stroke-width:7.427;stroke:#060606;stroke-opacity:0;stroke-dasharray:none;stroke-linecap:butt;paint-order:stroke fill markers;fill:#92235a;fill-opacity:1"
+         x="77.973244"
+         y="131.50386">T</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:187.763px;font-family:'Cream Cake';-inkscape-font-specification:'Cream Cake, Normal';text-align:center;text-anchor:middle;fill:#ccf0b4;fill-opacity:1;stroke:#060606;stroke-width:7.427;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0;paint-order:stroke fill markers"
+       x="83.215996"
+       y="127.05917"
+       id="text371-7"
+       transform="scale(1.0721792,0.93267992)"
+       inkscape:label="T_top"><tspan
+         sodipodi:role="line"
+         id="tspan369-0"
+         style="fill:#ccf0b4;fill-opacity:1;stroke:#060606;stroke-width:7.427;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:0;paint-order:stroke fill markers"
+         x="83.215996"
+         y="127.05917">T</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:56.4444px;font-family:'Cream Cake';-inkscape-font-specification:'Cream Cake, Normal';text-align:center;text-anchor:middle;fill:#cbbbe9;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0;paint-order:markers stroke fill"
+       x="125.09396"
+       y="170.49486"
+       id="text400"><tspan
+         sodipodi:role="line"
+         id="tspan398"
+         style="stroke-width:1"
+         x="125.09396"
+         y="170.49486" /></text>
   </g>
 </svg>
