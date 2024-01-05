@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const familyMembers = [
     {
@@ -23,8 +23,6 @@ const renderDescription = (description) => (
     <p dangerouslySetInnerHTML={{ __html: description.replace(/\n/g, '<br />') }} />
 );
 
-
-
 const containerStyle = {
     display: 'flex',
     flexDirection: 'row',
@@ -35,9 +33,18 @@ const containerStyle = {
     textAlign: 'center',
 };
 
+
 const memberStyle = {
     margin: '20px',
+    padding: '20px',
     maxWidth: '300px',
+    backgroundColor: '#ffff',
+    borderRadius: '15px', // Adjust the value to control the roundness of corners
+    overflow: 'hidden', // Ensures the border-radius is applied correctly
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.0)', // Optional: Add a subtle shadow for a card-like effect
+    transition: 'background-color 0.6s ease', // Optional: Add a smooth transition effect
+    // New property for hover background color
+    hoverBackgroundColor: '#F4F4F4', // Change this color to the desired hover background color
 };
 
 const imageStyle = {
@@ -53,19 +60,35 @@ const sectionTitleStyle = {
     textAlign: 'center', // Center the section title
 };
 
-const FamilyMembers = () => (
-    <div>
+const FamilyMembers = () => {
+    const [hoveredMember, setHoveredMember] = useState(null);
+  
+    return (
+      <div>
         <h1 style={sectionTitleStyle}>Family Members</h1>
         <div style={containerStyle}>
-            {familyMembers.map(member => (
-                <div key={member.name} style={memberStyle}>
-                    <img src={member.image} alt={member.name} style={imageStyle} />
-                    <h2>{member.name}</h2>
-                    {renderDescription(member.description)}
-                </div>
-            ))}
+          {familyMembers.map((member, index) => (
+            <div
+              key={member.name}
+              style={{
+                ...memberStyle,
+                backgroundColor: hoveredMember === index ? memberStyle.hoverBackgroundColor : memberStyle.backgroundColor,
+                boxShadow: hoveredMember === index
+                  ? '0 8px 16px rgba(0, 0, 0, 0.3)' // Add an animated drop shadow when hovering
+                  : '0 4px 8px rgba(0, 0, 0, 0.0)', // Flat drop shadow when not hovering
+                transition: 'box-shadow 0.6s ease', // Smooth transition for the animation
+              }}
+              onMouseOver={() => setHoveredMember(index)}
+              onMouseOut={() => setHoveredMember(null)}
+            >
+              <img src={member.image} alt={member.name} style={imageStyle} />
+              <h2>{member.name}</h2>
+              {renderDescription(member.description)}
+            </div>
+          ))}
         </div>
-    </div>
-);
-
-export default FamilyMembers;
+      </div>
+    );
+  };
+  
+  export default FamilyMembers;

@@ -36,8 +36,6 @@ const About = () => (
 
             Most importantly, Taya, I want you to know how much I love you. You are the brightest star in my sky, and thinking of you lights up my whole day. This website is a big hug from me to you, a reminder that no matter where we are, my love is always with you. <br /><br />
         </p>
-
-
     </div>
 );
 
