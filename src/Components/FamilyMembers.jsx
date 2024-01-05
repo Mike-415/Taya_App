@@ -74,14 +74,22 @@ const FamilyMembers = () => {
                 ...memberStyle,
                 backgroundColor: hoveredMember === index ? memberStyle.hoverBackgroundColor : memberStyle.backgroundColor,
                 boxShadow: hoveredMember === index
-                  ? '0 8px 16px rgba(0, 0, 0, 0.3)' // Add an animated drop shadow when hovering
-                  : '0 4px 8px rgba(0, 0, 0, 0.0)', // Flat drop shadow when not hovering
-                transition: 'box-shadow 0.6s ease', // Smooth transition for the animation
+                  ? '0 8px 16px rgba(0, 0, 0, 0.2)' // Add an animated drop shadow when hovering
+                  : '0 4px 8px rgba(0, 0, 0, 0.1)', // Flat drop shadow when not hovering
+                transition: 'box-shadow 0.3s ease', // Smooth transition for the animation
               }}
               onMouseOver={() => setHoveredMember(index)}
               onMouseOut={() => setHoveredMember(null)}
             >
-              <img src={member.image} alt={member.name} style={imageStyle} />
+              <img
+                src={member.image}
+                alt={member.name}
+                style={{
+                  ...imageStyle,
+                  transform: hoveredMember === index ? 'scale(1.05)' : 'scale(1)', // Increase size on hover
+                  transition: 'transform 0.4s ease', // Smooth transition for the size change
+                }}
+              />
               <h2>{member.name}</h2>
               {renderDescription(member.description)}
             </div>
