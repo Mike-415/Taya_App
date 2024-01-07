@@ -82,8 +82,9 @@ const FamilyMembers = () => {
             name={familyMembers[selectedMember].name}
             image={familyMembers[selectedMember].image}
             description={familyMembers[selectedMember].description}
+            onClose={handleCloseDetails} // Pass the callback to close the details
           />
-          <button onClick={handleCloseDetails}>Close Details</button>
+          {/*<button onClick={handleCloseDetails}>Close Details</button>*/}
         </div>
       ) : (
         // Display family member cards when no member is selected
