@@ -21,7 +21,14 @@ function App() {
       <ImageCarousel />
       <About />
       <FamilyMembers />
+            {/* Embedding a video */}
+            <div className="video-container">
+        <video width="100%" controls>
+          <source src="https://www.youtube.com/watch?v=P0haCYjysUs" type="video/mp4" />
+        </video>
+      </div>
     </div>
+
   );
 }
 
