@@ -21,11 +21,16 @@ function App() {
       <ImageCarousel />
       <About />
       <FamilyMembers />
-            {/* Embedding a video */}
-            <div className="video-container">
-        <video width="100%" controls>
-          <source src="https://www.youtube.com/watch?v=P0haCYjysUs" type="video/mp4" />
-        </video>
+      <div className="video-container">
+        <iframe
+          width="100%"
+          height="500"
+          src="https://www.youtube.com/watch?v=P0haCYjysUs"
+          title="Happy B-Day Video 2024"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
 
